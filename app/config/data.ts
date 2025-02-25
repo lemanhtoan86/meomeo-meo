@@ -7,7 +7,7 @@ export const APP_CONFIG = {
 
     LOAD_TIMEOUT_MS: 3000,
 
-    MAX_CODE_ATTEMPTS: 3
+    MAX_CODE_ATTEMPTS: 5
 } as const;
 
 type AppConfig = typeof APP_CONFIG;
